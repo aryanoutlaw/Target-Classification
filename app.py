@@ -52,7 +52,7 @@ def footer():
         }
         </style>
         <div class="footer">
-            Developed with ❤️ by Your Name | <a href="https://github.com/yourusername">GitHub</a> | <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            Developed with ❤️ by Team BruteForce | <a href="https://github.com/aryanoutlaw/Target-Classification">GitHub</a>
         </div>
         """,
         unsafe_allow_html=True
