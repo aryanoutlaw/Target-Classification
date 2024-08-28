@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+.main-title {
+    color: #3498db;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 24px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #2980b9;
+    box-shadow: 0px 15px 20px rgba(46, 129, 201, 0.4);
+    transform: translateY(-3px);
+}
+
+.stSelectbox > div > div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.stSelectbox > div > div:hover {
+    background-color: #ecf0f1;
+}
+
+.uploaded-image, .sample-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.uploaded-image img, .sample-image img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.uploaded-image img:hover, .sample-image img:hover {
+    transform: scale(1.05);
+}
+
+.prediction-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ecc71;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f8e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.stAlert {
+    background-color: #d5f5e3;
+    color: #27ae60;
+    border-radius: 5px;
+    border-left: 5px solid #27ae60;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.stAlert:hover {
+    background-color: #c8e6c9;
+}
+
+.footer {
+    font-size: 14px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #f39c12;
+}
+
+img[alt="Radar gif"] {
+    display: block;
+    margin: 20px auto;
+    width: 150px;  /* Adjust as needed */
+}
